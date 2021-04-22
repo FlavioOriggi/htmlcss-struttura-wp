@@ -53,12 +53,21 @@ main:after{
 }
 
 .content{
-    background-color: #abcfe7;;
+    background-color: #abcfe7;
     float: left;
     width: calc(50% - 30px);
     margin: 0px 15px;
     height: 400px; 
 }
+
+.right-content{
+    background-color: #abcfe7;
+    width: 25%;
+    height: 400px;   
+    float: left;  
+  }
+
+
 
 
 /* footer */
