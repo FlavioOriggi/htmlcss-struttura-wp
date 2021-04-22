@@ -23,3 +23,14 @@ header{
     width: 100%;
     margin: 20px 0; 
 }
+
+main:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.spazio-del-titolo{
+    height: 100px;      
+    background-color:#abcfe7;
+}
