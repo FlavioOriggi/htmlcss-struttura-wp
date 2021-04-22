@@ -40,7 +40,7 @@ header{
 main{
     margin: 20px 0; 
     background-color: #0087ff;
-
+    padding-bottom: 20px;
 }
 
 
@@ -56,8 +56,7 @@ main:after{
     background-color: #abcfe7;
     width: 25%;
     float: left;
-    height: 410px;
-    /* margin-bottom: 20px; */
+    height: 410px;    
 }
 
 .content{
