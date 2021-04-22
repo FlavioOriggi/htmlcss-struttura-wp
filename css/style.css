@@ -49,7 +49,15 @@ main:after{
     background-color: #abcfe7;
     width: 25%;
     float: left;
-    height: 700px;
+    height: 400px;
+}
+
+.content{
+    background-color: #abcfe7;;
+    float: left;
+    width: calc(50% - 30px);
+    margin: 0px 15px;
+    height: 400px; 
 }
 
 
