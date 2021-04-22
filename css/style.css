@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    padding: 20px 60px;
+    height: 100%;
+}
+
+/* header */
+header{
+    background-color: #e579e6;
+    height: 150px;
+    margin-bottom: 20px;        
+}
+
+/* copertina */
+.copertina{    
+    background-color: #e1d67a;
+    height: 400px;    /*in futuro l'altezza verrà tolta */
+    width: 100%;
+    margin: 20px 0; 
+}
