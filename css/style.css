@@ -7,6 +7,8 @@
 body{
     padding: 20px 60px;
     height: 100%;
+    width: 70%;
+    margin: auto ;
 }
 
 /* spazio per menu superiore */
@@ -20,7 +22,6 @@ header{
 .copertina{    
     background-color: #e1d67a;
     height: 400px;    /*in futuro l'altezza verrà tolta */
-    width: 100%;
     margin: 20px 0; 
 }
 
@@ -31,9 +32,15 @@ header{
     background-color:#abcfe7;
 }
 
+.container{
+    background-color: #0087ff;
+}
+
 /* margine per distanziare i blocchi dallo spazio del titolo */
 main{
-    margin: 20px 0;
+    margin: 20px 0; 
+    background-color: #0087ff;
+
 }
 
 
@@ -49,7 +56,8 @@ main:after{
     background-color: #abcfe7;
     width: 25%;
     float: left;
-    height: 400px;
+    height: 410px;
+    /* margin-bottom: 20px; */
 }
 
 .content{
@@ -57,15 +65,15 @@ main:after{
     float: left;
     width: calc(50% - 30px);
     margin: 0px 15px;
-    height: 400px; 
+    height: 410px; 
 }
 
 .right-content{
     background-color: #abcfe7;
     width: 25%;
-    height: 400px;   
+    height: 410px;   
     float: left;  
-  }
+}
 
 
 
