@@ -9,14 +9,14 @@ body{
     height: 100%;
 }
 
-/* header */
+/* spazio per menu superiore */
 header{
     background-color: #e579e6;
     height: 150px;
     margin-bottom: 20px;        
 }
 
-/* copertina */
+/* immagine grande superiore */
 .copertina{    
     background-color: #e1d67a;
     height: 400px;    /*in futuro l'altezza verrà tolta */
@@ -24,21 +24,27 @@ header{
     margin: 20px 0; 
 }
 
+
+/* spazio per scritta "LEADERSHIP" */
+.spazio-del-titolo{
+    height: 100px;      
+    background-color:#abcfe7;
+}
+
+/* margine per distanziare i blocchi dallo spazio del titolo */
+main{
+    margin: 20px 0;
+}
+
+
 main:after{
     clear: both;
     content: '';
     display: table;
 }
 
-.spazio-del-titolo{
-    height: 100px;      
-    background-color:#abcfe7;
-}
 
-main{
-    margin: 20px 0;
-}
-
+/* inizio blocchi incolonnati */
 .left-content{
     background-color: #abcfe7;
     width: 25%;
@@ -47,6 +53,7 @@ main{
 }
 
 
+/* footer */
 footer{
     background-color: #8801fe;
     height: 75px;    
