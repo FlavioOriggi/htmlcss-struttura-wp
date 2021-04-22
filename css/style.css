@@ -34,3 +34,16 @@ main:after{
     height: 100px;      
     background-color:#abcfe7;
 }
+
+main{
+    margin: 20px 0;
+}
+
+.left-content{
+    background-color: #abcfe7;
+    width: 25%;
+    float: left;
+    height: 700px;
+}  
+
+
